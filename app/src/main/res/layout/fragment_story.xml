@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="170dp"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    android:layout_marginLeft="3dp"
+    android:elevation="3dp"
+
+
+    app:cardUseCompatPadding="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/fragmentClick"
+        >
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My first Title"
+        android:textColor="#000000"
+        android:padding="5dp"
+        android:layout_marginLeft="4dp"
+        android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/contentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:padding="3dp"
+
+            android:text="Lets talk about the content that exists here and how can they be related in being professional work we do.This content refers to everybody working  for their dreams. The dream job that exists for every perople is the main reason they live in.Lets talk about the content that exists here and how can they be related in being professional work we do.This content refers to everybody working  for their dreams. The dream job that exists for every perople is the main reason they live in. Lets talk about the content that exists here and how can they be related in being professional work we do.This content refers to everybody working  for their dreams. The dream job that exists for every perople is the main reason they live in."
+            android:textSize="16dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+
+
+            />
+        <TextView
+            android:id="@+id/userTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="right"
+            android:text="Shailendra"
+            android:paddingRight="3dp"
+
+
+            />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
